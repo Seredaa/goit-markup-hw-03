@@ -79,6 +79,8 @@ ul {
   margin-right: 93px;
   padding-top: 0;
   display: inline-block;
+  padding-top: 24px;
+  margin-bottom: 20px;
 }
 
 .logo-web {
@@ -281,6 +283,14 @@ ul {
   padding-bottom: 94px;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 .filter-item-btn {
   color: var(--title-color);
   font-weight: 500;
@@ -321,12 +331,6 @@ ul {
 }
 
 /* -----------footer_____________*/
-
-.logo {
-  display: inline-block;
-  padding-top: 24px;
-  margin-bottom: 20px;
-}
 
 .logo-footer {
   margin-bottom: 20px;
