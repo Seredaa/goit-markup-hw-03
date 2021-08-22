@@ -74,9 +74,11 @@ ul {
   font-size: 26px;
   line-height: 1.23;
   letter-spacing: 0.03em;
-
+  text-align: center;
   color: var(--logo-color);
   margin-right: 93px;
+  padding-top: 0;
+  display: inline-block;
 }
 
 .logo-web {
@@ -169,6 +171,7 @@ ul {
   margin-right: auto;
   margin-left: auto;
   padding: 10px 32px;
+  display: block;
 }
 
 .benefits {
@@ -202,6 +205,31 @@ ul {
   width: 270px;
 }
 
+.works-title {
+  padding-top: 94px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.works {
+  display: flex;
+}
+
+.works-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.works-item {
+  padding-bottom: 94px;
+}
+
 .section-command {
   font-weight: 700;
   font-size: 36px;
@@ -209,6 +237,20 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+}
+
+.command {
+  display: flex;
+}
+
+.command-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-command {
+  padding-top: 94px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .command-item-command {
@@ -224,6 +266,9 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .command-item-text {
@@ -231,6 +276,9 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  margin-bottom: 10px;
+  text-align: center;
+  padding-bottom: 94px;
 }
 
 .filter-item-btn {
@@ -274,12 +322,36 @@ ul {
 
 /* -----------footer_____________*/
 
+.logo {
+  display: inline-block;
+  padding-top: 24px;
+  margin-bottom: 20px;
+}
+
+.logo-footer {
+  margin-bottom: 20px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--logo-color);
+  margin-right: 93px;
+  padding-top: 0;
+  display: inline-block;
+  padding-top: 60px;
+}
+
 .adress-company-street {
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71x;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-style: normal;
 }
 
 .adress-company-mail {
@@ -288,9 +360,10 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-
-  text-decoration: underline;
-  color: var(--logo-color);
+  margin-bottom: 10px;
+  display: inline-block;
+  font-style: normal;
+  color: var(--second-color);
 }
 
 .adress-company-tel {
@@ -299,6 +372,8 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: underline;
-  color: var(--logo-color);
+  font-style: normal;
+  color: var(--second-color);
+  padding-bottom: 60px;
+  display: inline-block;
 }
